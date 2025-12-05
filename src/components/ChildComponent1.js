@@ -6,7 +6,7 @@ const [name,setName] = useState("Option 1");
     return (
     <div>
       <h2>Child Component 1</h2>
-      <button onClick={()=>fetchData(name)}>{name}</button>
+      <button onClick={()=>fetchData("Option 1")}>Option 1</button>
     </div>
   )
 }
