@@ -14,8 +14,8 @@ setSelectedOption(data);
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
         <div className="parent">
-<ChildComponent1 selectedOption={selectedOption} setSelectedOption={setSelectedOption} fetchData={fetchData} />
-<ChildComponent2 selectedOption={selectedOption} setSelectedOption={setSelectedOption} fetchData={fetchData} />
+<ChildComponent1  fetchData={fetchData} />
+<ChildComponent2  fetchData={fetchData} />
 <p>Selected Option:{selectedOption}</p>
         </div>
     </div>

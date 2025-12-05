@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 
-const ChildComponent2 = ({fetchData,selectedOption,setSelectedOption}) => {
+const ChildComponent2 = ({fetchData}) => {
 const [name,setName] = useState("Option 2");
    
 return (
