@@ -15,7 +15,7 @@ const App = () => {
       <div className="parent">
         <ChildComponent1 selectedOption={selectedOption} fetchData={fetchData} />
         <ChildComponent2 selectedOption={selectedOption} fetchData={fetchData} />
-        <p>Selected Option:{selectedOption}</p>
+        <p>Selected Option: {selectedOption}</p>
       </div>
     </div>
   );

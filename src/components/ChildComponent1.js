@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 
-const ChildComponent1 = ({fetchData,selectedOption}) => {
+const ChildComponent1 = ({selectedOption,fetchData}) => {
 
-const [name,setName] = useState("Option 1");
+
     return (
     <div>
       <h2>Child Component 1</h2>
