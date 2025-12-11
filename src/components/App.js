@@ -5,9 +5,9 @@ import ChildComponent2 from "./ChildComponent2";
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState("");
-  // const fetchData = (data) => {
-  //   setSelectedOption(data);
-  // };
+  const fetchData = (data) => {
+    setSelectedOption(data);
+  };
   return (
     <div>
       {/* Do not remove the main div */}
