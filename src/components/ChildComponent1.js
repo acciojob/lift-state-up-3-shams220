@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-const ChildComponent1 = ({fetchData}) => {
+const ChildComponent1 = ({fetchData,selectedOption}) => {
 
 const [name,setName] = useState("Option 1");
     return (
