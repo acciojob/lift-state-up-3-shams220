@@ -13,8 +13,8 @@ const App = () => {
       {/* Do not remove the main div */}
       <h1>Parent Component</h1>
       <div className="parent">
-        <ChildComponent1 selectedOption={selectedOption} fetchData={fetchData} />
-        <ChildComponent2 selectedOption={selectedOption} fetchData={fetchData} />
+        <ChildComponent1 setSelectedOption={setSelectedOption}  />
+        <ChildComponent2 setSelectedOption={setSelectedOption}  />
         <p>Selected Option: {selectedOption}</p>
       </div>
     </div>
